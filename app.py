@@ -4,6 +4,9 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from joblib import load
 import pandas as pd
+import nltk
+
+nltk.download('stopwords')
 
 # Cache the model loading
 @st.cache_resource
