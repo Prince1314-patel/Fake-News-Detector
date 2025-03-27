@@ -7,6 +7,7 @@ import pandas as pd
 import nltk
 
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Cache the model loading
 @st.cache_resource
